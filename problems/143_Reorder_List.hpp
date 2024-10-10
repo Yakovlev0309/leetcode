@@ -22,7 +22,7 @@ void printList(ListNode *head)
 void reorderList(ListNode *head)
 {
     ListNode *h2 = head;
-    vector<int> vec;
+    std::vector<int> vec;
     while (head != nullptr)
     {
         vec.push_back(head->val);

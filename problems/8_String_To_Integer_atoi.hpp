@@ -1,6 +1,6 @@
 #include "../leetcode.h"
 
-int myAtoi(string s)
+int myAtoi(std::string s)
 {
     int sign = 1;
     int i = 0;
@@ -45,7 +45,6 @@ int myAtoi(string s)
 
     return ans * sign;
 }
-
 
 // int myAtoi(string s)
 // {
